@@ -10,14 +10,14 @@ body{
     top: 1vw;
     background-color: #221B3C;
     border-radius: 17px;
-    width: 98%;
+    width: 100%;
     height: 40px;
     font-size: 25px;
     text-align: justify;
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: start;
     margin-top: 0.5vw;
 }
 .accueil, .experience, .formation, .interet, .benevolat, .contact{
@@ -31,16 +31,22 @@ body{
     height: 600px;
 } 
 
-#formations, #interets, #benevolats, #contacts{
+#formations, #interets, #benevolats, #formations{
     height: 600px;
     padding-top:6vw;
     margin-left: 20px;
 }
 #experiences{
+    height: 1000px;
+    padding-top:6vw;
+    margin-left: 20px;
+}
+
+#contacts{
     height: 600px;
     padding-top:6vw;
-    font-size: 1.6vw;
     margin-left: 20px;
+    color: white;
 }
 
 
@@ -106,5 +112,23 @@ img{
 }
 .coordonnee{
     list-style-type: none;
-    margin-left: 10vw;
+    margin-left: 2vw;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    background-color: #8d4e63;
+    border-radius: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text-block h2{
+    color: white;
 }
